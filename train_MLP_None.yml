@@ -1,0 +1,15 @@
+Inputs:
+- RawEt
+- eta
+- phi
+- Had
+- Em
+- HoE
+
+NormalizeInputs: 0
+Njets: -1
+Selections: None
+KerasModel: dense_model_batchnorm
+RegressTo: ratio
+Loss: mean_absolute_error
+Epochs: 20
